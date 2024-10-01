@@ -1,32 +1,74 @@
-# Python-related files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pdb
+*.py[cod]
+*$py.class
 
-# Log files
-task_log.log
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+.venv/
+bin/
+Include/
+include/
+Lib/
+lib/
+Scripts/
+pyvenv.cfg
 
 # Coverage reports
 htmlcov/
-*.cover
-*.cov
+.coverage
+.coverage.*
+.cache
+nosetests.xml
 coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.coverage
 
-# Configuration and metadata
-pytest.ini
-mypy.ini
-pyvenv.cfg
+# Pytest cache
+.pytest_cache/
 
-# Development requirements
-dev-requirements.txt
-requirements.txt
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
 
-# CSV files generated from the application
-average_power.csv
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Python virtual environment (if used)
-venv/
-env/
->>>>>>> c8859b2 (Initial commit)
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# MyPy cache
+.mypy_cache/
+
+# Others
+.idea/
+.vscode/
+*.iml
