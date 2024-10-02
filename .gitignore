@@ -72,3 +72,5 @@ Thumbs.db
 .idea/
 .vscode/
 *.iml
+mypy.ini
+pytest.ini

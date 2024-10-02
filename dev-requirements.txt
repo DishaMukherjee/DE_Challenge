@@ -1,0 +1,6 @@
+# dev-requirements.txt (for development environment)
+pytest==7.1.2          # Enhanced testing framework
+flake8==6.0.0          # Linting to ensure code style consistency
+black==22.6.0          # Automatic code formatting
+mypy==0.991            # Type checking (optional if using type hints)
+coverage==6.4.3        # Test coverage reporting
